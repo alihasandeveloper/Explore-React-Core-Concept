@@ -1,0 +1,22 @@
+
+import './App.css'
+import Counter from './Counter'
+import Users from "./Users.jsx";
+import Friends from "./Friends.jsx";
+function App() {
+    const handel = () => {
+        alert("Hello World!")
+    }
+  return (
+    <>
+      <h2>Explore React Core Concept</h2>
+        <Friends/>
+        <Counter/>
+        {/*<button onClick={()=>handel()}>Handel</button>*/}
+        <Users/>
+    </>
+
+  )
+}
+
+export default App
