@@ -12,7 +12,7 @@ function App() {
     <>
       <h2>Explore React Core Concept</h2>
         <Counter/>
-        {/*<button onClick={()=>handel()}>Handel</button>*/}
+        <button onClick={()=>handel()}>Handel</button>
         <Users/>
         <Friends/>
         <Posts/>
